@@ -86,7 +86,7 @@ clipping at norm 1, drift step capped at 0.25, effective batch capped at 256.
 | Final budget | 50,000 steps, early stopping disabled, cosine to $10^{-5}$ at 50k |
 | Final seeds | 101, 102, 103, 104, 105 |
 | Geometry reference | ≤2,500 points, farthest-point subsampled, mutual $k$-NN graph |
-| Evaluation size | $N_{\mathrm{eval}} = \min\{2048, |D|\}$ |
+| Evaluation size | $N_{\mathrm{eval}} = \min\{2048, \lvert D\rvert\}$ |
 
 Model selection is geometry-blind: every method is scored on the raw samples it
 actually produces, under a common ambient metric, so no method is judged by its
