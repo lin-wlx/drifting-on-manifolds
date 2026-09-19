@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Generative Modelling via Drifting on Manifolds"
+abstract: >-
+  Code for an MSc dissertation comparing four levels of geometric information
+  in Drifting Models across fifteen target distributions on S^2, T^2 and SO(3).
+authors:
+  - family-names: "Wang"
+    given-names: "Linxuan"
+type: software
+license: MIT
+year: 2026

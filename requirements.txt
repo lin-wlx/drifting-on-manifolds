@@ -1,0 +1,9 @@
+# Pinned to the versions the experiments were run against (Google Colab, 2026).
+# torch must match your CUDA build; see https://pytorch.org/get-started/locally/
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+tqdm>=4.65
+ipython>=8.0

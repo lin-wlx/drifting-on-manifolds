@@ -1,0 +1,20 @@
+# Data — not redistributed. See README.
+earth_dataset/
+protein_dataset/
+AMASS_dataset/
+*.npz
+*.tsv
+*.pdb.gz
+
+# Run artefacts
+*.pt
+dissertation/
+final_four_model_all_manifolds_v1/
+
+# Keep the aggregated CSVs that notebook 04 emits
+!results/*.csv
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
